@@ -14,6 +14,13 @@ def httpSatus():
             return "Internal Server Error"
         case _:
             return "OSS"
+        
+def httpStatusWithOr():
+    status = getStatement()
+    match status:
+        case 401 | 403 | 403:
+            return "Not Allowed"
     
 
 print(httpSatus())
+print(httpStatusWithOr())
