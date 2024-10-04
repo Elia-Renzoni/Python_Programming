@@ -23,4 +23,3 @@ def check(valueReturned):
 
 
 check(ask("Hai Mangiato ?"))
-
