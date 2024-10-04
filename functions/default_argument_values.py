@@ -1,7 +1,6 @@
 #   @author Elia Renzoni
 #   @date 21/04/2924
 #   @brief default arguments values in Python functions
-#
 
 def ask(initMessage, reminder="Please, Try Again !"):
     """ brief info """
