@@ -19,3 +19,4 @@ def delteInMap(hashMap, key):
 
 print(addInMap(myMap, 12, "Pippo"))
 print(addInMap(myMap, 40, "Pluto"))
+
