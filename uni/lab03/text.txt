@@ -1,0 +1,13 @@
+Esercizio:
+
+Creare un libretto universitario, tenere traccia degli esami che sosteniamo e passiamo.
+Quindi materia, voto, docente, anno di corso e semestre e cfu. Vorrei tenere conto di alcune statistiche sulla carriera
+universitaria, quindi quanti esami ho dato, quali esami ho dato, con media nei semestri.
+
+Entità:
+Materia --> docente, anno di corso, semestre, cfu.
+Libretto --> lista di materie e voti, storage, hash map materia - voto.
+DB --> gestisce lo storage, prende un file e faccio add, remove, update, select
+Analisi --> 
+Studente -- nome, anno di corso, corso.
+Voto --> voto parziale o totale.
