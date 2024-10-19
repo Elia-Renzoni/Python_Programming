@@ -4,7 +4,6 @@
 
 
 class Libretto:
-
     def __init__(self):
         self.inMemoryStore = dict()
         self.pointer = open("libretto.txt", "w")
@@ -22,4 +21,5 @@ class Libretto:
             return True
         return False
 
-l = Libretto()
+libretto = Libretto()
+
