@@ -27,3 +27,10 @@ print(a2.size)
 print(a2[1])
 # accesso al primo elemento della dimensione in posizione 1
 print(a2[1][0])
+
+# @param, matrice da inizializzare
+z = np.zeros((3, 4))
+print(z)
+
+r = np.arange(1, 10, 2)
+print(r)
