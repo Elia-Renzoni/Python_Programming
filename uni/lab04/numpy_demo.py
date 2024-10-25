@@ -43,3 +43,17 @@ print(b.reshape((2, 2)))
 
 # ravel
 print(a2.ravel())
+
+# stampa i singoli elementi
+for e in a2.flatten():
+    print(e)
+
+print("----")
+
+for e in a2[1]:
+    print(e)
+
+print("----")
+print(a2.sum())
+print("Somma per righe:")
+print(a2.sum(axis=1))
