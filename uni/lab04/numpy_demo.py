@@ -39,3 +39,7 @@ print(r)
 b = np.array([1,2,3,4])
 print(b)
 print(b.reshape((2, 2)))
+
+
+# ravel
+print(a2.ravel())
